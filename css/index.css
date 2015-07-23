@@ -1,0 +1,168 @@
+html {
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important
+}
+
+html,body {
+    background-color: #fff;
+    color: #111;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header {
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+article {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    width: 70%;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 72px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.content {
+    margin: 210px auto 0;
+    overflow: hidden;
+}
+
+.content h3 {
+    width: 100%;
+    line-height: 90px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    color: #111;
+}
+
+.content a {
+    display: block;
+}
+
+.content ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content li {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    font-weight: 600;
+    font-size: 18px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.content span {
+    float: left;
+}
+
+.content p {
+    padding-left: 40%;
+}
+
+.animate {
+    -webkit-animation-name: animate;
+    animation-name: animate;
+    -webkit-animation-duration: .9s;
+    animation-duration: .9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+}
+
+.content ul:hover a {
+    opacity: .2
+}
+
+.content ul:hover a:hover {
+    opacity: 1
+}
+
+footer {
+    width: 70%;
+    margin: 140px auto 0 auto;
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+}
+
+footer p {
+    text-align: right;
+}
+
+a{cursor: pointer;}
+a:link{color: #000;text-decoration: none;}
+a:visited{color: #000;text-decoration: none;}
+a:hover{color: #000;text-decoration: none;}
+a:active{color: #000;text-decoration: none;}
+
+
+footer{
+    text-align: center;
+}
+
+
+
+@-webkit-keyframes animate {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
